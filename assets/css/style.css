@@ -1,0 +1,201 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color: rgb(253, 249, 249);
+
+}
+
+section#berita {
+	height: 400px;
+
+}
+
+
+/* =================================================================================  */
+/* LOGO */
+.logo img {
+	padding-top: 0px;
+}
+
+.logo {
+	font-family: Viga;
+	width: 60%;
+	color: rgb(21, 153, 76);
+
+}
+
+.nama-sekolah {
+	font-size: 24px;
+}
+
+/* ================================================================================== */
+/* NAVBAR */
+nav li a:hover {
+	background-color: rgb(81, 163, 245);
+
+}
+
+
+
+/* ================================================================================== */
+/* SLIDER */
+
+
+.slidsH3 {
+	font-size: 50px;
+	margin-top: 80px;
+}
+
+.slidsH4 {
+	font-size: 46px;
+	text-shadow: 2px 2px 25px black;
+	font-weight: bold;
+}
+
+.capt {
+	text-shadow: 2px 2px 25px black;
+	font-weight: bold;
+}
+
+/* ================================================================================== */
+/* ALUR PENDAFTARAN */
+#alur-daftar img {
+	text-align: center;
+	margin-left: 40px;
+
+}
+
+
+/* ================================================================================== */
+/* PROGRAM SEKOLAH */
+#program-sekolah .program-icons {
+	margin-left: 11px;
+	margin-top: 60px;
+}
+
+#program-sekolah .program {
+	font-size: 22px;
+	font-weight: 500;
+	font-family: arial, sans-serif;
+}
+
+#program-sekolah .row {
+	margin-top: -20px;
+}
+
+#program-sekolah .judul-program {
+	height: 40px;
+	border-bottom: 3px solid rgb(53, 53, 204);
+}
+
+.judul-program h2 {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+/* ================================================================================== */
+/* BERITA TERBARU */
+#berita {
+	font-size: 18px;
+}
+
+#berita .berita-icons {
+	margin-left: 11px;
+}
+
+#berita .berita-icons span {
+	font-size: 22px;
+	font-weight: 500;
+	font-family: arial, sans-serif;
+}
+
+/* FACILITY */
+#facility {
+	font-size: 18px;
+}
+
+#facility .facility-icons {
+	margin-left: 11px;
+}
+
+#facility .facility-icons span {
+	font-size: 22px;
+	font-weight: 500;
+	font-family: arial, sans-serif;
+}
+
+/* ================================================================================== */
+/* CONTACT - US */
+.contact-us {
+
+	padding-top: 10px;
+}
+
+.contact-us span {
+	font-size: 20px;
+}
+
+/* ================================================================================== */
+/* FOOTER */
+footer {
+	height: 40px;
+}
+
+.footer-copyright {
+	line-height: 40px;
+}
+
+/* MOBILE */
+@media (max-width:576px) {
+
+	/* MOBILE-NAV */
+	.sidenav li a:hover {
+		background-color: #0066CC;
+		color: azure;
+	}
+
+	/* SLIDER */
+	.slidsH3 {
+		font-size: 28px;
+		margin-top: -25px
+	}
+
+	.slides .dua {
+		display: block;
+	}
+
+	.capt {
+		text-shadow: 2px 2px 25px black;
+		font-weight: bold;
+		margin-top: -20px;
+	}
+
+	/* ALUR - PENDAFTARAN */
+	#alur-daftar .alur img {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+}
+
+/* TABLET */
+@media(max-width: 768px) {
+
+	/* SLIDER */
+	.slidsH3 {
+		font-size: 28px;
+		margin-top: -25px
+	}
+
+	/* ALUR - PENDAFTARAN */
+	#alur-daftar .alur img {
+		width: 100%;
+	}
+
+
+
+}

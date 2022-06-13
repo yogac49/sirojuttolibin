@@ -1,0 +1,150 @@
+.container {
+	width: 1000px;
+	margin: 200px auto;
+}
+
+.box {
+	height: 500px;
+}
+
+a {
+	margin-left: 106px;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+.buton-login {
+	margin-bottom: 10px;
+}
+
+
+.judul-register {
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	height: 500px;
+	background-color: rgb(76, 241, 178)
+}
+
+.judul-register h2 {
+	font-size: 44px;
+	margin: 125px 8px;
+}
+
+.judul-register p {
+	margin-top: -85px;
+	text-align: center;
+}
+
+
+.btn-primary {
+	border-radius: 50px;
+	color: black;
+	width: 150px;
+	border: 1px solid black;
+	background-color: rgb(76, 241, 178)
+}
+
+.container .buton-login {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.form h2 {
+	font-size: 35px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(28, 179, 121);
+}
+
+.mobile-signin {
+	display: none;
+}
+
+.mobile-regis {
+	display: none;
+}
+
+div.buton.register2 {
+	margin: auto 250px;
+}
+
+.register {
+	text-align: center;
+}
+
+.resgiter-buton {
+	background-color: rgb(76, 241, 178);
+	border-radius: 50px;
+	color: black;
+	width: 150px;
+}
+
+/* MIN WIDTH */
+
+@media(min-width: 768px) {
+
+	.form {
+		border: 1px solid white;
+		height: 500px;
+		text-align: center;
+		border-top-right-radius: 30px;
+		border-bottom-right-radius: 30px;
+		box-shadow: 1px 1px 2px black;
+	}
+
+}
+
+/* MOBILE */
+@media(max-width: 576px) {
+	body {
+		overflow-x: hidden;
+	}
+
+	.judul-register {
+		display: none;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.form-sign-in {
+		height: 40px;
+		background-color: cornsilk;
+	}
+
+	.form-sign-in a {
+		line-height: 40px;
+		margin-left: -8px;
+	}
+
+	.form-sign-in a:hover {
+		color: rgb(42, 148, 148);
+		cursor: pointer;
+	}
+
+	.form {
+		width: 100%;
+		margin: -130px 20px;
+	}
+
+	.form h2 {
+		text-align: center;
+	}
+
+	.form .buton.register2 {
+		margin-left: 170px;
+	}
+
+	.mobile-signin {
+		display: block;
+	}
+
+	.mobile-regis {
+		display: block;
+	}
+
+}
